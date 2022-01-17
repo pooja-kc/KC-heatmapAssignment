@@ -1,0 +1,46 @@
+
+.hidden{
+    width: 10px;
+    height: 10px;
+    border: 2px solid #D8E3E7;
+    margin: 2px;
+    visibility: hidden;
+    background-color: #D8E3E7;
+}
+.visible{
+    width: 10px;
+    height: 10px;
+    border: 2px solid #D8E3E7;
+    margin: 2px;
+    background-color: #D8E3E7;
+  
+}
+
+.visible:hover{
+    border: 2px solid black;
+    
+}
+.one{
+    background-color: #D8E3E7;
+    border: 2px solid #D8E3E7;
+}
+.two{
+    background-color: #D9534F;
+    border: 2px solid #D9534F;
+    opacity: 20%;
+}
+.three{
+    background-color: #D9534F;
+    border: 2px solid #D9534F;
+    opacity: 40%;
+}
+.four{
+    background-color: #D9534F;
+    border: 2px solid #D9534F;
+    opacity: 60%;
+}
+.five{
+    background-color: #D9534F;
+    border: 2px solid #D9534F;
+    opacity: 80%;
+}

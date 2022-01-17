@@ -1,0 +1,25 @@
+.month-wrapper{
+    padding: 0px;
+    
+}
+
+.month-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 140px;
+    width: 100px;
+}
+
+.month_title p, .year_title h4{
+ padding: 0px;
+ margin: 0px;
+ text-align: left !important;
+}
+.month_title p{
+    font-size: 15px;
+}
+
+.hide {
+    visibility: hidden;
+}

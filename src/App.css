@@ -1,0 +1,57 @@
+.App-header {
+  background-color: rgba(255, 255, 255, 0.884);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: fit-content;
+  border-radius: 20px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: fit-content;
+  padding: 20px;
+  margin: 40px auto;
+  margin-bottom: 0px;
+}
+
+.title {
+  color: #142850;
+}
+.day_content {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  min-width: 100px;
+  min-height: 170px;
+  max-width: 1368.34px;
+  justify-content: center;
+  display: flex;
+  flex-direction:column;
+}
+.content_wrap {
+  text-align: left;
+  margin: auto 30%;;
+  padding: 20px;
+}
+.placeholder {
+  opacity: 40%;
+}
+.day_label {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+  font-size: 15px;
+  gap: 1px;
+}
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  margin-right: 60px;
+  pointer-events: none;
+}
+.footer span {
+  padding: 0px 10px;
+}
+.day_content p:before {
+  content: "\2388";
+  padding-right: 15px;
+}
