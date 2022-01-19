@@ -3,8 +3,7 @@ import Box from "./Box";
 import "./Month.css";
 import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css";
-import axios from "axios";
-import { useEffect } from "react/cjs/react.development";
+
 
 const monthNames = [
   "January",
@@ -55,11 +54,7 @@ function Month(props) {
       "2021-01-07": 6,
     },
   };
-  // const [Data, setData]= useState({});
-  // useEffect(()=>{
-  //   axios.get('https://changes.free.beeceptor.com/changes').then((response)=> setData(...response.data));
-  //   console.log("pata", Data)
-  // },[])
+ 
 
   //repeat
   function getDate(yourDate) {

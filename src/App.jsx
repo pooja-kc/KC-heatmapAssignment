@@ -14,9 +14,7 @@ function App() {
   );
   const [endDate, setendDate] = useState(new Date("Sun May 11,2014"));
   const [content, setContent] = useState("");
-  useEffect(() => {
-    console.log("content i got ...", content);
-  });
+  
 
   var getDateArray = function (start, end) {
     var arr = new Array();
@@ -86,7 +84,7 @@ function App() {
 
   function myFunction(content) {
     setContent(content);
-    changes=content_obj;
+ 
       axios
         .get(
           `https://changes.free.beeceptor.com/changes/${content.replaceAll(
@@ -97,7 +95,7 @@ function App() {
         .then((response) => setChanges([...response.data]));
 
       console.log("changes", changes);
-    // setChanges([...content_obj]);
+  
   }
 
   return (
